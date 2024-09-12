@@ -1,37 +1,73 @@
 import Marquee from "react-fast-marquee";
-
+import {
+  SearchOutlined,
+  ShoppingCartOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
+import { Avatar, Badge } from "antd";
 const Navbar = () => {
   return (
     <div>
-      <Marquee
-  pauseOnHover={true}
-  delay={2}
-  loop={0}
-  className="text-white bg-black py-4 font-semibold gap-10"
->
-  <li className=" px-6   mr-5   ">
-    CLICK HERE TO JOIN THE KFA DISCORD SERVER
-  </li>
-  <li className="px-6   mr-5   ">
-    FREE SHIPPING ON IN-STOCK ORDERS ABOVE $70 WITHIN
-  </li>
-  <li className="px-6   mr-5   ">
-    ⏳ Flash Sale: 24 Hours Only!
-  </li>
-  <li className="px-6   mr-5   ">
-    ⚡ Limited Edition Mechanical Keyboards!
-  </li>
-  <li className="px-6   mr-5   ">
-    ✨ Hot New Arrivals!
-  </li>
-</Marquee>
+      <div>
+        <Marquee
+          pauseOnHover={true}
+          delay={2}
+          loop={0}
+          className="text-white bg-black py-4 font-semibold gap-10"
+        >
+          <li className=" px-6   mr-5   ">
+            CLICK HERE TO JOIN THE KFA DISCORD SERVER
+          </li>
+          <li className="px-6   mr-5   ">
+            FREE SHIPPING ON IN-STOCK ORDERS ABOVE $70 WITHIN
+          </li>
+          <li className="px-6   mr-5   ">⏳ Flash Sale: 24 Hours Only!</li>
+          <li className="px-6   mr-5   ">
+            ⚡ Limited Edition Mechanical Keyboards!
+          </li>
+          <li className="px-6   mr-5   ">✨ Hot New Arrivals!</li>
+        </Marquee>
 
-      //! Navbar session
-      <div className="flex justify-between ">
-        <div>logo</div>
-        <div>link</div>
-        <div>searcher, cart </div>
+        {/* Navbar session */}
+        <div className="flex justify-around items-center py-3 px-5 md:px-10  border-2 ">
+          {/* logo session */}
+          <div>
+            <img
+              className="bg-black h-16 "
+              src="https://i.ibb.co.com/tmGNkmn/Screenshot-2024-09-12-123024.png"
+              alt=""
+            />
+          </div>
+          {/* Link Session */}
+          <div className="flex gap-10 ">
+            <ul>Home</ul>
+            <ul>Products</ul>
+            <ul>Products</ul>
+            <ul>Contact Us</ul>
+            <ul>Dashboard</ul>
+          </div>
+          {/* Search bar, login, cart  */}
+          <div className="flex justify-between gap-5 items-center ">
+            <ul className="text-2xl">
+              <SearchOutlined />
+            </ul>
+            <ul>
+              <Badge count={0} showZero>
+                <Avatar shape="square" icon={<ShoppingCartOutlined />} />
+              </Badge>
+            </ul>
+
+            <ul>
+              <Avatar
+                style={{ backgroundColor: "#87d068" }}
+                icon={<UserOutlined />}
+              />
+            </ul>
+          </div>
+        </div>
       </div>
+
+
     </div>
   );
 };
