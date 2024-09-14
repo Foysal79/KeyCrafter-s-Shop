@@ -8,12 +8,12 @@ import { Avatar, Badge } from "antd";
 const Navbar = () => {
   return (
     <div>
-      <div>
+      <div className="bg-[#0A1429] text-white" >
         <Marquee
           pauseOnHover={true}
           delay={2}
           loop={0}
-          className="text-white bg-black py-4 font-semibold gap-10"
+          className="text-white  py-4 font-semibold gap-10"
         >
           <li className=" px-6   mr-5   ">
             CLICK HERE TO JOIN THE KFA DISCORD SERVER
@@ -29,14 +29,18 @@ const Navbar = () => {
         </Marquee>
 
         {/* Navbar session */}
-        <div className="flex justify-around items-center py-3 px-5 md:px-10  border-2 ">
+        <div className="flex justify-around items-center py-3 px-5 md:px-10   ">
           {/* logo session */}
           <div>
-            <img
+            <div className="flex items-center">
+              <h1 className="text-8xl font-extrabold" >K</h1>
+              <small className="text-xl font-semibold">eycrafter's </small>
+            </div>
+            {/* <img
               className="bg-black h-16 "
               src="https://i.ibb.co.com/tmGNkmn/Screenshot-2024-09-12-123024.png"
               alt=""
-            />
+            /> */}
           </div>
           {/* Link Session */}
           <div className="flex gap-10 ">

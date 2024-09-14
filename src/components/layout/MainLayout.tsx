@@ -5,7 +5,7 @@ const MainLayout = () => {
     return (
         <div>
             <Navbar />
-            <h1 className="" >This is a Main layout pages</h1>
+            <h1 className="h-screen bg-[#e5e5e5]" >This is a Main layout pages</h1>
             <Footer />
         </div>
     );
