@@ -1,8 +1,9 @@
+import HeroSession from "../components/layout/Herosession";
 
 const Home = () => {
     return (
         <div>
-            this is a home session
+            <HeroSession />
         </div>
     );
 };
