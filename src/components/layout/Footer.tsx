@@ -5,12 +5,12 @@ import { IoLogoDiscord } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="py-12 px-20">
+    <div className="py-12 px-10 md:px-20">
       {/* session */}
       
         
         {/* other 3 session */}
-        <div className="block md:flex justify-between   gap-16">
+        <div className="block lg:flex justify-between   gap-16 space-y-10">
           {/* sighup session, email sender session  */}
         <div className="flex-1 pt-4 space-y-3">
           <div className="flex items-center text-[#0A1429]">
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
       
       {/* social  Media all*/}
-      <div className="flex gap-1 items-center " >
+      <div className="flex gap-1 items-center py-10 lg:py-0" >
         <a  className="text-3xl"href="https://www.youtube.com/ "><FaYoutube  /></a>
         <a  className="text-2xl"href="/ "><FaFacebookSquare  /></a>
         <a  className="text-2xl"href="/ "><FaInstagramSquare  /></a>
@@ -71,7 +71,7 @@ const Footer = () => {
 
       </div>
       {/* copy right and payments */}
-      <div className="flex justify-between items-center">
+      <div className=" block md:flex justify-between items-center">
         <p>
           &copy; 2024 Keycrafter's. All rights reserved.
         </p>
