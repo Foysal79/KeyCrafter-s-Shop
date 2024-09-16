@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import React from "react";
-import { ImagesSlider } from "../ui/images-slider";
+import { ImagesSlider } from "../../ui/images-slider";
 
 const HeroSession = () => {
     const images = [
