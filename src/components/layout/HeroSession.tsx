@@ -15,7 +15,7 @@ const HeroSession = () => {
         
       ];
     return (
-        <ImagesSlider className="h-screen"  images={images}>
+        <ImagesSlider className="h-[90vh]"  images={images}>
       <motion.div
         initial={{
           opacity: 0,
