@@ -3,8 +3,8 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const MainLayout = () => {
-    return (
-        <div>
+    return ( 
+        <div >
             <Navbar />
             <Outlet />
             <Footer />
