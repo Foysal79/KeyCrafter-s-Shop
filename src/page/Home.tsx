@@ -1,5 +1,6 @@
 import FeaturedProducts from "../components/layout/HomeLayout/FeaturedProducts";
 import HeroSession from "../components/layout/HomeLayout/HeroSession";
+import KeyboardCompare from "../components/layout/HomeLayout/KeyboardCompare";
 import Review from "../components/layout/HomeLayout/Review";
 
 import ServiceAdvertisement from "../components/layout/HomeLayout/ServiceAdvertisement";
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroSession />
       <ServiceAdvertisement />
       <FeaturedProducts />
+      <KeyboardCompare />
       <TopFeatured />
       <Review />
     </div>

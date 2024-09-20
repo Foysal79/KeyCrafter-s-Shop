@@ -9,61 +9,62 @@ const TopFeatured = () => {
           Top Featured Brands
         </h1>
       </div>
-      <Marquee >
-        <div className="relative w-60 h-32 mx-10">
+      <div className="grid    grid-cols-3 lg:grid-cols-6 w-11/12 mx-auto   ">
+        <div className="relative w-20 h-16 md:w-40 md:h-28 md:mx-10 ">
           <img
             src="https://i.ibb.co.com/MsqV4V7/1.png"
             className="w-full h-full  opacity-70 rounded-xl "
             alt="Image"
           />
-          <div className="absolute inset-0   opacity-50 "></div>
+          <div className="absolute inset-0 bg-gray-300  opacity-50 "></div>
         </div>
 
-        <div className="relative w-44 h-32 mx-10">
+        <div className="relative w-20 h-16 md:w-40 md:h-28 md:mx-10">
           <img
             src="https://i.ibb.co.com/L86scbX/2.png"
             className="w-full h-full  opacity-70 rounded-xl "
             alt="Image"
           />
-          <div className="absolute inset-0  opacity-50"></div>
+          <div className="absolute inset-0 bg-gray-300 opacity-50"></div>
         </div>
 
-        <div className="relative w-56 h-32 mx-10">
+        <div className="relative w-20 h-16 md:w-40 md:h-28 md:mx-10">
           <img
             src="https://i.ibb.co.com/dWtGTSw/3.png"
             className="w-full h-full opacity-70 rounded-xl"
             alt="Image"
           />
-          <div className="absolute inset-0  opacity-50"></div>
+          <div className="absolute inset-0 bg-gray-300  opacity-50"></div>
         </div>
-        <div className="relative w-36 h-32 mx-10">
+        <div className="relative w-20 h-16 md:w-40 md:h-28 md:mx-10">
           <img
             src="https://i.ibb.co.com/0jPcp57/4.jpg"
             className="w-full h-full rounded-xl opacity-70"
             alt="Image"
           />
-          <div className="absolute inset-0  opacity-50"></div>
+          <div className="absolute inset-0 bg-gray-300 opacity-50"></div>
         </div>
-        <div className="relative w-44 h-32 mx-10">
+        <div className="relative w-20 h-16 md:w-40 md:h-28 md:mx-10">
           <img
             src="https://i.ibb.co.com/2ZhjTSg/5.png"
             className="w-full h-full rounded-xl opacity-70"
             alt="Image"
           />
-          <div className="absolute inset-0  opacity-50"></div>
+          <div className="absolute inset-0 bg-gray-300  opacity-50"></div>
         </div>
-        <div className="relative w-44 h-32 mx-10 ">
+        <div className="relative w-20 h-16 md:w-40 md:h-28 md:mx-10 ">
           <img
             src="https://i.ibb.co.com/1mw5StD/6.png"
             className="w-full h-full rounded-xl opacity-70"
             alt="Image"
           />
-          <div className="absolute inset-0  opacity-50"></div>
+          <div className="absolute inset-0 bg-gray-300  opacity-50"></div>
         </div>
         
-      </Marquee>
+      </div>
     </div>
   );
 };
 
 export default TopFeatured;
+2
