@@ -1,5 +1,6 @@
 import FeaturedProducts from "../components/layout/HomeLayout/FeaturedProducts";
 import HeroSession from "../components/layout/HomeLayout/HeroSession";
+import Review from "../components/layout/HomeLayout/Review";
 
 import ServiceAdvertisement from "../components/layout/HomeLayout/ServiceAdvertisement";
 import TopFeatured from "../components/layout/HomeLayout/TopFeatured";
@@ -11,6 +12,7 @@ const Home = () => {
       <ServiceAdvertisement />
       <FeaturedProducts />
       <TopFeatured />
+      <Review />
     </div>
   );
 };
