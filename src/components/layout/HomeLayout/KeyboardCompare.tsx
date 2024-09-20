@@ -10,7 +10,7 @@ const KeyboardCompare = () => {
         <h1 className=" pb-6 pt-2 text-3xl md:text-5xl font-bold  font-roboto">
         Why Use Mechanical <br /> Keyboard ?
         </h1>
-        <p className="text-sm text-justify">In a world where efficiency and performance matter, mechanical keyboards have become the gold standard for both casual users and professionals. Unlike their membrane counterparts, mechanical keyboards offer a unique tactile feel, providing precise feedback with every keystroke. This not only improves typing accuracy but also enhances comfort during long sessions. With the added benefits of customization, durability, and ergonomic design, mechanical keyboards aren’t just a tool—they’re an experience. Whether you're gaming, coding, or simply typing, a mechanical keyboard brings a new level of control and satisfaction to your fingertips.</p>
+        <p className="text-sm text-justify">  In a world where efficiency and performance matter, mechanical keyboards have become the gold standard for both casual users and professionals. Unlike their membrane counterparts, mechanical keyboards offer a unique tactile feel, providing precise feedback with every keystroke. This not only improves typing accuracy but also enhances comfort during long sessions. With the added benefits of customization, durability, and ergonomic design, mechanical keyboards aren’t just a tool—they’re an experience. Whether you're gaming, coding, or simply typing, a mechanical keyboard brings a new level of control and satisfaction to your fingertips.</p>
       </div>
         <div
       className="flex-1"

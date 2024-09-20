@@ -30,7 +30,7 @@ const Review = () => {
         Customers Are Saying 
         </h1>
       </div>
-      <Carousel responsive={responsive}>
+      <Carousel responsive={responsive}  >
   <ReviewCard />
   <ReviewCard />
   <ReviewCard />
