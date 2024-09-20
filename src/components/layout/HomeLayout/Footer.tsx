@@ -5,7 +5,7 @@ import { IoLogoDiscord } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="py-12 px-10 md:px-20">
+    <div className="py-12 px-10 md:px-20 ">
       {/* session */}
       
         

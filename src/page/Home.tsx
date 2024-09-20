@@ -5,16 +5,19 @@ import Review from "../components/layout/HomeLayout/Review";
 
 import ServiceAdvertisement from "../components/layout/HomeLayout/ServiceAdvertisement";
 import TopFeatured from "../components/layout/HomeLayout/TopFeatured";
+import FaqSession from "./FaqSession";
 
 const Home = () => {
   return (
-    <div className="bg-[#E5E7EB]">
+    <div className="bg-[#E5E7EB] space-y-5">
       <HeroSession />
       <ServiceAdvertisement />
       <FeaturedProducts />
       <KeyboardCompare />
       <TopFeatured />
+      <FaqSession />
       <Review />
+      
     </div>
   );
 };
